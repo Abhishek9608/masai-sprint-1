@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 250px;
+    background-image: url(./resources/john-rodenn-castillo-eluzJSfkNCk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.form{
+    width:25%;
+    height: 400px;
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px #777;
+    
+}
+.form > div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.login{
+    margin-left: 20px;
+    color: #6eb131;
+    font-size: 30px;
+}
+.form > input{
+    padding: 12px 24px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    font-family: sans-serif;
+    font-weight: 200;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+.button{
+    width: 78%;
+    background-color: rosybrown;
+    padding:12px 24px;
+    margin-left: 18px;
+   border-radius: 8px;
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   outline: none;
+}
+.button:hover{
+    border: 1px solid purple;
+}
+input::placeholder{
+    width: 100%;
+    height: 20px;
+}

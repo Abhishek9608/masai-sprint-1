@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.body{
+    color: #777;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #000;
+}
+.logo_box{
+    width: 150px;
+    height: 50px;
+    /* background-color: red; */
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+}
+.logo{
+    width: 70px;
+    height: 40px;
+    font-family: lato , sans-serif;
+    padding-left: 5px;
+    position: relative;
+    top: 10px;
+}
+.header-1{
+    float: right;
+    margin-right: 300px;
+    font-size: 20px;
+}
+.header-1 > a{
+    /* background-color: red; */
+    width: 80px;
+    height: 60px;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    top: -30px;
+    padding: 10px;
+}
+@media screen and (max-width:768px){
+   .header{
+       width: 100%;
+       height: 70px;
+       
+   }
+   .header-1{
+    float: right;
+    margin-right: 50px;
+}
+}
+@media screen and (max-width:480px){
+    
+    .header-1{
+     float: right;
+     margin-right: 20px;
+     font-size: 10px;
+ }
+
+}
+.main{
+    width: 100%;
+    height: 670px;
+    background-image: url(/masai/sprint-1/resources/lucas-clara-hvPB-UCAmmU-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+@media screen and (max-width:768px){
+    .main{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+.content{
+    width: 500px;
+    height: 200px;
+    /* background-color: tomato; */
+    position: relative;
+    float: right;
+    top: 200px;
+    right: -400px;
+}
+.content > div{
+    font-size: 80px;
+    font-family: sans-serif;
+    
+    font-weight: 400;
+    color: white;
+}
+@media screen and (max-width:768px){
+    .content{
+        width: 300px;
+        height: 150px;
+        position: relative;
+        float: right;
+        top: 120px;
+        right: 60px;
+
+    }
+
+    .content > div{
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: 400;
+        color: white;
+    }
+    
+}
+@media screen and (max-width:480px){
+    .content > div{
+        font-size: 30px;
+    }
+     .content{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        float: right;
+        top: 120px;
+        right: 60px;
+
+    }
+}
+.mountain{
+    width: 100%;
+    height: 700px;
+    /* background-color: violet;  */
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.heading{
+    width: 100%;
+    height: 100px;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center;
+}
+.heading-box{
+    width: 400px;
+    height: 80px;
+    background-color:white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.mountain_visit{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 400;
+}
+.border{
+    width: 300px;
+    height: 5px;
+    background-color: #F44336;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-left: 43px;
+}
+.card{
+    width: 80%;
+    height: 600px;
+    /* background-color: yellowgreen; */
+    align-items: center;
+    margin-left: 150px;
+    display: flex;
+}
+@media screen and (max-width:768px){
+   .card{
+       width:40%;
+       height: 1600px;
+       margin-left: 200px;
+       display: flex;
+       flex-direction: column;
+       /* background-color: black; */
+   }
+   .card > div {
+    width: 50%;
+    height: 450px;
+    background-color: white;
+    margin: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #777;
+}
+.mountain{
+    width: 100%;
+    height: 1800px;
+    /* background-color: violet;  */
+    display: flex;
+    flex-direction: column;
+   
+}
+.card-cont{
+    font-size: 7px;
+    font-family: sans-serif;
+    font-weight: 200;
+    /* background-color: #F44336; */
+    margin-top: 10px;
+    padding: 7px;
+}
+.border{
+    width: 300px;
+    height: 5px;
+    background-color: #F44336;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-left: 50px;
+}
+
+}
+@media screen and (max-width:480px){
+    .card{
+        width:70%;
+        height: 1600px;
+        margin-left: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    .heading-box{
+        width: 300px;
+    }
+    .mountain_visit{
+        font-size: 20px;
+    }
+    .border{
+        width: 200px;
+        height: 5px;
+        background-color: #F44336;
+        border-radius: 5px;
+        margin-top: 4px;
+        margin-left: 50px;
+    }
+}
+   
+.card > div {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    margin: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #777;
+}
+.imge{
+    width: 100%;
+    height: 250px;
+    
+}
+.card-cont{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 200;
+    /* background-color: #F44336; */
+    margin-top: 20px;
+    padding: 10px;
+}
+.button-1{
+    width: 30px;
+    height: 40px;
+    margin-left: 100px;
+    position: relative;
+    top: 20px;
+    padding: 10px 40px;
+    background-color:#777;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    }
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #777;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 250px 250px;
+    grid-column-gap: 100px;
+    padding: 50px;
+
+}
+/* .footer > div{
+    background-color: #F44336;
+} */
+.footer_logo1{
+    width: 200px;
+    height: 200px;
+}
+.footer-content1{
+    font-size: 20px;
+    color: white;
+}
+.footer-content2{
+    font-size: 20px;
+    color: white;
+}
+
+@media screen and (max-width:768px){
+
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #777;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 100px 100px 100px;
+    grid-row-gap: 50px;
+    padding: 50px;
+
+}
+.footer_logo1{
+    width: 100px;
+    height: 100px;
+}
+.footer-content1{
+    font-size: 15px;
+    color: white;
+}
+.footer-content2{
+    font-size: 15px;
+    color: white;
+}
+
+}
+
